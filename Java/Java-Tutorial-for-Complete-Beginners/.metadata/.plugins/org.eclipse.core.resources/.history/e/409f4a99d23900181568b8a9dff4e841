@@ -1,0 +1,16 @@
+
+public class WhileLoops {
+
+    public static void main(String[] args) {
+        int rows = 5, i = 1, j = 5;
+
+        while (i <= rows) {
+        	while(i <= j) {
+        		System.out.println("*");
+        		j--;
+        	}
+        	i++;
+        }
+        System.out.println("done");
+    }
+}

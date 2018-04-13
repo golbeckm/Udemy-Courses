@@ -1,0 +1,20 @@
+
+public class WhileLoops {
+
+    public static void main(String[] args) {
+        int rows = 5, i = 1, j = 5;
+
+        while (i <= rows) {
+        	while(i <= j) {
+        		System.out.println("*");
+        		System.out.println("i value is: " + i);
+        		System.out.println("j value is: " + j);
+        		j--;
+        	}
+        	System.out.println("i value is in outside loop: " + i);
+    		System.out.println("j value is in outside loop: " + j);
+        	i++;
+        }
+        System.out.println("done");
+    }
+}
